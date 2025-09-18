@@ -61,7 +61,7 @@ body {
 .inputSide{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 26%;
   height: 90vh;
   justify-content: center;
   background: rgb(107, 185, 238) -200px;;
@@ -69,7 +69,7 @@ body {
   align-items: center;
 }
 .inputSide input {
-  width: 80%;
+  width: 70%;
   height: 5%;
   border-radius: 5px;
   text-align: center;
@@ -84,15 +84,18 @@ body {
 }
 .inputSide input:focus {
   outline: none;
-  border: 2px solid #000;
+  border: 1px solid #000;
   background: whitesmoke;
 }
 .inputSide input::placeholder {
   color: #000;
   font-weight: bold;
 }
+.days{
+  background: #000;
+}
 .inputSide select  {
-  width: 80%;
+  width: 70%;
   height: 5%;
   border-radius: 5px;
   text-align: center;
@@ -115,7 +118,7 @@ body {
   font-weight: bold;
 }
 .inputSide button:hover {
- background: #00466e;
+ background: #006e40;
  transition: cubic-bezier(0.23, 1, 0.320, 1) all 2s;
   color: #fff;
   font-weight: bold;
@@ -129,13 +132,13 @@ body {
   align-items: center;
 }
 .inputSide button:active {
-  background: #00466e;
+  background: #006e40;
   transition: cubic-bezier(0.23, 1, 0.320, 1) all 2s;
 }
 .DescriptedData{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 60%;
   height: 35vh;
   outline: 1px solid #000;
   position: relative;
@@ -163,7 +166,7 @@ body {
   align-items: center;
   justify-content: space-between;
   font-size: 1rem;
-  width: 95%;
+  width: 60%;
 }
 .txt2 {
   display: flex;
@@ -172,7 +175,7 @@ body {
   align-items: center;
   justify-content: space-between;
   font-size: 1.5rem;
-  width: 95%;
+  width: 60%;
 }
 .description{
   outline:1px solid #000;  
@@ -246,7 +249,7 @@ body {
   background: #000;
 }
 .LastBox{
-  width: 100%;
+  width: 60%;
   height: 7%;
   top: -14%;
   display: flex;

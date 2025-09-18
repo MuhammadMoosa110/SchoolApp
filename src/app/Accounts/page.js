@@ -31,11 +31,11 @@ function Accounts() {
                     <input value={text} onChange={(e) => {
                         setText(e.target.value)
                     }} placeholder='DESCRIPTION' type='text' name='DESCRIPTION' ></input>
-                    <div style={{ width: "28%", height: "20%", position: "absolute", top: "10%", zIndex: "1", left: "2.3%", display: "flex" }}>
-                        <input value={days} onChange={(e) => { setDays(e.target.value) }} placeholder='No Of Days' name='AMOUNT' style={{ width: "105px", height: "50px" }}></input>
-                        <input value={rate} onChange={(e) => { setRate(e.target.value) }} placeholder='RATE' name='AMOUNT' style={{ width: "105px", height: "50px" }}></input>
+                    <div style={{ width: "8%", height: "10%", position: "absolute", top: "10%", zIndex: "1", left: "2.3%", display: "flex" }}>
+                        <input  value={days} onChange={(e) => { setDays(e.target.value) }} placeholder='No Of Days' name='AMOUNT' style={{ width: "105px", height: "50px" }}></input>
+                        <input  value={rate} onChange={(e) => { setRate(e.target.value) }} placeholder='RATE' name='AMOUNT' style={{ width: "105px", height: "50px" }}></input>
 
-                        <select value={prompt} onChange={(e) => { setPropmpt(e.target.value) }} style={{ width: "106px", height: "50px" }}>
+                        <select className='des' value={prompt} onChange={(e) => { setPropmpt(e.target.value) }} style={{ width: "106px", height: "50px" }}>
                             <option>SELECT</option>
                             <option>Paid cash against {nature}
 
